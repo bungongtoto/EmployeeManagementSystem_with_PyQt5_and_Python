@@ -8,7 +8,8 @@ staff access the sqlite database to perform queries on the  tables. to help mana
 ![image](https://user-images.githubusercontent.com/118504455/216829857-a515e55c-a06b-4e54-8b65-b221402e3ec0.png)
  
 -	It also gives buttons to access form to manage temporal employee , permanent employees and to dismiss them.
-![image](https://user-images.githubusercontent.com/118504455/216829898-933f12a6-9254-4a38-9bd0-bb8bcb01e6c0.png) 
+![image](https://user-images.githubusercontent.com/118504455/216830229-3cee15d7-d501-4926-b6cf-e6a82e2a8883.png)
+
 
 -	When Hire Temporal Employee is clicked, the following window pop up.
 -	This form provides lineEdit, spin boxes, comboBox , to help take in the attributes required for the various operations which are:

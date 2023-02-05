@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Permanent Employee</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="PermTable">
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Age</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Working Days</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Occupation</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Worked Days</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Monthly Salary</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Number of Children</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Marital Status</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Monthly Bonus</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Temporal Employee</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="TemTable">
+      <column>
+       <property name="text">
+        <string>New Column</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Working Days</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Occupation</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Hourly Salary</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Worked Hours</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuActions">
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Actions</string>
+    </property>
+    <addaction name="actionHire_Temporal_Employee"/>
+    <addaction name="actionHire_Permanent_Employee"/>
+    <addaction name="actionDismiss_Employee"/>
+   </widget>
+   <addaction name="menuActions"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionHire_Temporal_Employee">
+   <property name="text">
+    <string>Hire Temporal Employee</string>
+   </property>
+  </action>
+  <action name="actionHire_Permanent_Employee">
+   <property name="text">
+    <string>Hire Permanent Employee</string>
+   </property>
+  </action>
+  <action name="actionDismiss_Employee">
+   <property name="text">
+    <string>Dismiss Employee</string>
+   </property>
+  </action>
+  <action name="actionMute_Employee">
+   <property name="text">
+    <string>Mute Employee</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
